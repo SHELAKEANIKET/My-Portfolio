@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Aniket Shelake</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- navbar start-->
+        <div>
+            <nav>
+                <input type="checkbox" id="check" onchange="toggleOverflow()">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo" onclick="reload()">Aniket</label>
+                <ul>
+                    <li><a class="active navlink" href="#">Home</a></li>
+                    <li><a class="navlink" href="#selfInfo">About Me</a></li>
+                    <li><a class="navlink" href="#project">Projects</a></li>
+                    <li><a class="navlink" href="#ContactMe">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- navbar end-->
+
+        <!-- self info start -->
+        <div id="selfInfo">
+            <div class="myinfo">
+                <div class="myName typewriter">
+                    <span>Hello</span>
+                    <P>I'm <span id="text"></span></P>
+                </div>
+                <div class="myImg">
+                    <img src="MyPhoto.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <!-- self info start -->
+       <hr>
+        <!-- education start -->
+        <div id="education">
+            <div class="educationPara">Educational Background</div>
+            <div class="mainbox">
+                <div class="box btech">
+                    <p class="cardPara heading">B.Tech CSE</p>
+                    <p class="cardPara">Sharad Institute of Technology College Of Engineering, Yadrav.</p>
+                    <p class="cardPara percentage">CGPA : 8.15</p>
+                </div>
+                <div class="box hsc ">
+                    <p class="cardPara heading">HSC</p>
+                    <p class="cardPara">Shree Datta Kanishtha Mahavidyalaya, Kurundwad.</p>
+                    <p class="cardPara percentage">Percentage : 80.15</p>
+                </div>
+                <div class="box ssc">
+                    <p class="cardPara heading">SSC</p>
+                    <p class="cardPara">Sitabai Patwardhan HighSchool, Kurundwad.</p>
+                    <p class="cardPara percentage">Percentage : 84</p>
+                </div>
+            </div>
+        </div>
+        <!-- education end -->
+        
+
+        <!-- skills section -->
+        <div id="skills">
+            <p class="skillsPara">Technical Skills</p>
+            <div id="allSkills">
+                <div class="languages">
+                    <p>C</p>
+                    <p>C++</p>
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>MySQL</p>
+                </div>
+                <div class="developments">
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                    <p>Bootstrap</p>
+                    <p>Tailwind CSS</p>
+                </div>
+            </div>
+        </div>
+            <!-- project section start -->
+        <div id="project">
+            <div class="projectPara">Projects</div>
+            <div class="mainbox2">
+                <div class="box2">
+                    <p class="cardPara projectName">QR-Code Generator</p>
+                    <p class="cardPara description">A simple QR code generator used to generate QR code of any text or URL.
+                    </p>
+                    <a href="https://aniketqr.netlify.app/" class="viewbtn" target="_blank">view Project
+                        </a>
+                </div>
+                <div class="box2">
+                    <p class="cardPara projectName">Digital Clock</p>
+                    <p class="cardPara description">A Digital Clock WebApp which shows the current time based on the location.
+                    </p>
+                    <a href="https://asdigitalclock.netlify.app/" class="viewbtn" target="_blank">view Project
+                    </a>
+                </div>
+                <div class="box2">
+                    <p class="cardPara projectName">English Dictionary</p>
+                    <p class="cardPara description">
+                        A dictionary WebApp which is useful to find the meaning of any english word.
+                    </p>
+                    <a href="https://aniketdictionary.netlify.app/" class="viewbtn" target="_blank">view Project
+                    </a>
+                </div>
+                <div class="box2">
+                    <p class="cardPara projectName">Calculator</p>
+                    <p class="cardPara description">A Calculator Application used to perform the basic arithmetic operations.
+                    </p>
+                    <a href="https://aniketcalculator.netlify.app/" class="viewbtn" target="_blank">view Project
+                    </a>
+                </div>
+                <div class="box2">
+                    <p class="cardPara projectName">Weather App</p>
+                    <p class="cardPara description">A real time Weather application to see the weather of any location of world.
+                    </p>
+                    <a href="https://aniketshelake.netlify.app/" class="viewbtn" target="_blank">view Project
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- project section end -->
+       
+
+        <!-- social links -->
+        <div id="social-links">
+            <div class="socialpara">Social Links</div>
+            <div class="social-icons">
+                <div class="icon">
+                    <a href="https://www.facebook.com/aniket.shelake.5036" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/aniketshelake151/" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/SHELAKEANIKET" target="_blank">
+                        <li><i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.instagram.com/aniket.shelake.5036/" target="_blank">
+                        <li><i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://t.me/SHELAKEANIKET" target="_blank">
+                        <li><i class="fa-brands fa-telegram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+      
+        <!-- Contact Me start -->
+        <div id="ContactMe">
+
+            <form action="https://formspree.io/f/xvojonne" method="POST">
+                <p class="contactme">Contact Me</p>
+                <fieldset>
+                    <label for="name">Name :</label>
+                    <input type="text" name="Name" id="name" placeholder="Enter Your Name" required>
+                    <label for="email">Email :</label>
+                    <input type="email" name="Email" id="email" placeholder="Enter Your Email" required>
+                    <label for="phone">Phone Number :</label>
+                    <input type="text" name="Phone" id="phone" placeholder="Enter Your Phone Number" required>
+                    <label for="message">Message :</label>
+                    <textarea name="Message" id="message" cols="20" rows="4" placeholder="Write Something..."
+                        required></textarea>
+                    <button>Send</button>
+                </fieldset>
+            </form>
+        </div>
+        <!-- Contact Me end-->
+
+        <script src="index.js"></script>
+</body>
+
+</html>
